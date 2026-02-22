@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--I need to figure out how to do the load spinner animation whilst
+        the info is still fetching.
+    -->
+    <form>
+        <div id="picture">
+
+        </div>
+        <div class="nameAndJob">
+        <h2 id="namePlaceholder"></h2>
+        <p id="jobtitle"></p>
+        </div>
+        <div class="email">
+        <p id="emailPlaceholder">Email</p>
+        <p id="emailValue"></p>
+        </div>
+        <div class="phone">
+            <p id="phonePlaceholder">Phone</p>
+            <p id="phoneValue"></p>
+        </div>
+        <div class="company">
+            <p id="companyPlaceholder">Company</p>
+            <p id="companyValue"></p>
+        </div>
+        <div class="address">
+            <p id="addressPlaceholder">Address</p>
+            <p id="addressValue"></p>
+        </div>
+    </form>
+            <button onClick="fetchRandomUser()">New Random User</button>
+    <script src="script.js"></script>
+</body>
+</html>

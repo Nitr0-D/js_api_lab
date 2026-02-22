@@ -1,0 +1,122 @@
+body{
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.nameAndJob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px gray solid;
+    width: 300px;
+    justify-self: center;
+}
+
+#namePlaceholder{
+    margin-bottom: 0px
+}
+
+#jobtitle{
+    margin-top: 0px
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+#emailPlaceholder{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    justify-self: flex-start;
+    margin-bottom: 0px;
+    width: 300px;
+}   
+
+#phonePlaceholder{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    justify-self: flex-start;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+#companyPlaceholder{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    justify-self: flex-start;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-top: 1px grey solid;
+    justify-self: center;
+}
+
+#addressPlaceholder{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    justify-self: flex-start;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 248);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(160, 159, 159);
+    color: black;
+}
+
+#picture{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#picture img{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
