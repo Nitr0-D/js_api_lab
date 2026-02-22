@@ -15,13 +15,7 @@ async function fetchRandomUser() {
         const data = await response.json()
         user.push(...data.users)
     }catch(err){
-    pictureFrame.innerHTML = '<p>Sorry. There was an error fetching the required information</p>'
-    namePerson.innerHTML = '<p>Sorry. There was an error fetching the required information</p>'
-    jobtitle.HTML = '<p>Sorry. There was an error fetching the required information</p>'
-    email.innerHTML = '<p>Sorry. There was an error fetching the required information</p>'
-    phone.innerHTML = '<p>Sorry. There was an error fetching the required information</p>'
-    company.innerHTML = '<p>Sorry. There was an error fetching the required information</p>'
-    address.innerHTML = '<p>Sorry. There was an error fetching the required information</p>'
+    document.body.innerText = 'Sorry, there was an error fetching the data.'
     }
     let random = Math.floor(Math.random() * user.length)
     pictureFrame.innerHTML = `<img src="${user[random].image}" alt="profile picture">`
