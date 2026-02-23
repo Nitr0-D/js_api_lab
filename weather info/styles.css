@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    margin-bottom: 0px;
+}
+
+input{
+    width: 75%;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 90%;
+    background-color: white;
+}
+
+fieldset{
+    margin-top: 3em;
+    padding: 1em;
+    width: 70%;
+    border-radius: 1em;
+    height: fit-content;
+}
