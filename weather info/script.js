@@ -11,7 +11,7 @@ const lowValue = document.getElementById('lowValue')
 
 async function fetchWeather() {
     try {
-        let data = await fetch('https://api.openweathermap.org/data/3.0/onecall?lat=42.9832406&lon=-81.243372&appid=d8f0ea1e252cf62e57b62823683b5b11')
+        let data = await fetch('https://api.openweathermap.org/data/3.0/onecall?lat=42.9832406&lon=-81.243372&appid=[apikey]')
         let response = await data.json()
         if(response) {
             console.log(response)
