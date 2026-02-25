@@ -56,8 +56,9 @@ This repository documents my progression in:
 ## Next Planned Projects
 
 - Movie Search App
-- GitHub Profile Finder
-- Weather Dashboard (React version)
+- Smart Dashboard App
+- Advanced Task & Productivity Manager
+- Dynamic Quiz Engine
 
 ---
 
