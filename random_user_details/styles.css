@@ -103,11 +103,10 @@ button{
     color: white;
 }
 
-button:hover{
+button:active{
     background-color: rgb(160, 159, 159);
     color: black;
 }
-
 #picture{
     width: 100%;
     display: flex;
