@@ -3,7 +3,7 @@ base = "weatherinfo"
 publish = "."
 
 [functions]
-directory = "weatherinfo/netlify/functions"
+directory = "/./netlify/functions"
 
 [[redirects]]
 from = "/api/*"
