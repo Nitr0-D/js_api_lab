@@ -14,7 +14,7 @@ input.addEventListener('keydown', async function (event) {
     try {
         const city = document.getElementById('city')
         // This calls your secret backend using the shortcut we made
-        const response = await fetch('/api/getWeather?city=' + city);
+        const response = await fetch('/api/get-weather?city=' + city);
         const data = await response.json()
 
         console.log(data)
