@@ -9,16 +9,3 @@ const lowPlaceholder = document.getElementById('lowPlaceholder')
 const lowValue = document.getElementById('lowValue')
 
 
-async function fetchWeather() {
-    try {
-        let data = await fetch('https://api.openweathermap.org/data/3.0/onecall?lat=42.9832406&lon=-81.243372&appid=[apikey]')
-        let response = await data.json()
-        if(response) {
-            console.log(response)
-        }
-    } catch (error) {
-        console.error(error)   
-    }
-}
-
-fetchWeather()
