@@ -1,5 +1,5 @@
 exports.handler = async (event) => {
-    const city = event.queryStringParameters.city
+    const city = 'Paris'
 
     const key = process.env.WEATHER_API_KEY
 
